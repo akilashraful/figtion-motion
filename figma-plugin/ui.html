@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body{font:12px system-ui;margin:0;padding:14px;color:#1c1c21}
+  h1{font-size:13px;margin:0 0 4px}p{color:#6b6e7a;margin:0 0 10px;line-height:1.45}
+  button{width:100%;padding:10px;border:0;border-radius:7px;background:#7a3ff2;color:#fff;font:600 13px system-ui;cursor:pointer}
+  button[disabled]{opacity:.4;cursor:default}
+  textarea{position:fixed;left:-999px}
+  #st{margin-top:8px;color:#7a3ff2;min-height:16px}
+</style>
+<h1>Copy to Figtion</h1>
+<p id="msg">Select frames or layers on the canvas.</p>
+<button id="copy" disabled>Copy selection</button>
+<div id="st"></div>
+<textarea id="ta"></textarea>
+<script>
+  let json = '';
+  const msg = document.getElementById('msg'), btn = document.getElementById('copy'), st = document.getElementById('st'), ta = document.getElementById('ta');
+  function copy() {
+    ta.value = json; ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    if (!ok && navigator.clipboard) navigator.clipboard.writeText(json).then(() => done(), () => st.textContent = 'Copy failed — try again');
+    else done(ok);
+  }
+  function done(ok) { st.textContent = ok === false ? 'Copy failed — try again' : 'Copied — press ⌘V / Ctrl+V in Figtion'; }
+  btn.onclick = copy;
+  onmessage = e => {
+    const m = e.data.pluginMessage;
+    if (m.type === 'empty') { json = ''; btn.disabled = true; msg.textContent = 'Select frames or layers on the canvas.'; st.textContent = ''; }
+    if (m.type === 'data') { json = m.json; btn.disabled = false; msg.textContent = m.count + ' item' + (m.count > 1 ? 's' : '') + ' selected · ' + Math.round(json.length / 1024) + ' KB'; st.textContent = ''; }
+  };
+</script>
