@@ -5,9 +5,9 @@
 <h1 align="center">Figtion</h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/akilgrowth/">LinkedIn</a> ·
-  <a href="https://www.facebook.com/akilgrowth/">Facebook</a> ·
-  <a href="https://instagram.com/akilgrowth/">Instagram</a>
+  <a href="https://linkedin.com/in/akilgrowth/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+  <a href="https://www.facebook.com/akilgrowth/" target="_blank" rel="noopener noreferrer">Facebook</a> ·
+  <a href="https://instagram.com/akilgrowth/" target="_blank" rel="noopener noreferrer">Instagram</a>
 </p>
 
 <p align="center">
@@ -16,11 +16,13 @@
 </p>
 
 <p align="center">
-  <a href="https://figtion.neurotive.io/"><strong>Use it now → figtion.neurotive.io</strong></a>
+  <a href="https://figtion.neurotive.io/" target="_blank" rel="noopener noreferrer"><strong>Use it now → figtion.neurotive.io</strong></a>
 </p>
 
 <p align="center">
-  <img src="public/Logo/Screenshot%202026-10-29%20at%2012.57.43%20AM.png" alt="The Figtion editor: layers on the left, the canvas and floating toolbar in the middle, the Animate panel with its effects library on the right, and a timeline along the bottom" />
+  <a href="https://figtion.neurotive.io/" target="_blank" rel="noopener noreferrer">
+    <img src="public/Logo/editor-screenshot.png" alt="The Figtion editor: layers on the left, the canvas and floating toolbar in the middle, the Animate panel with its effects library on the right, and a timeline along the bottom" />
+  </a>
 </p>
 
 ---
