@@ -5,9 +5,9 @@
 <h1 align="center">Figtion</h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/akilgrowth/" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-  <a href="https://www.facebook.com/akilgrowth/" target="_blank" rel="noopener noreferrer">Facebook</a> ·
-  <a href="https://instagram.com/akilgrowth/" target="_blank" rel="noopener noreferrer">Instagram</a>
+  <a href="https://linkedin.com/in/akilgrowth/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.facebook.com/akilgrowth/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="https://instagram.com/akilgrowth/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://figtion.neurotive.io/" target="_blank" rel="noopener noreferrer"><strong>Use it now → figtion.neurotive.io</strong></a>
+  <a href="https://figtion.neurotive.io/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Use_Figtion_now_%E2%86%92-7A40ED?style=for-the-badge" alt="Use Figtion now at figtion.neurotive.io" /></a>
 </p>
 
 <p align="center">
